@@ -84,7 +84,7 @@
         NSString* clipboardContent = [NSString new];
         
         clipboardContent = clipboardMenager->getClipboard();
-        fileManager->write(self.currentFileName, clipboardContent);
+        fileManager->write(self.currentFileName, clipboardContent);//some note
     }
 }
 
